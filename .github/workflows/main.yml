@@ -5,7 +5,7 @@ on: [Push]
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on : ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -13,5 +13,5 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |echo Hello,World! My name is Kara berryman
-       echo Add other actions to build,
+       echo Add other actions to build,Open text messages in full screen
         echo test, and deploy your project.
